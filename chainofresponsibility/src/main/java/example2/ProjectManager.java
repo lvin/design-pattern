@@ -11,7 +11,7 @@ public class ProjectManager extends Handler{
         }
     }
 
-    public Object handleFeeRequest(RequestModel rm) {
+    private Object handleFeeRequest(RequestModel rm) {
         FeeRequestModel frm = (FeeRequestModel)rm;
 
         String str = "";
