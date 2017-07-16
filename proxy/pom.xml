@@ -5,15 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>wensen</groupId>
-    <artifactId>design-pattern</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>proxy</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>chainofresponsibility</module>
-        <module>facade</module>
-        <module>builder</module>
-        <module>decorator</module>
-    </modules>
 
 
 </project>
