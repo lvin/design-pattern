@@ -1,0 +1,20 @@
+package demo;
+
+/**
+ * @autor wensen on 2017/7/23.
+ */
+public class Client {
+    public static void main(String[] args) {
+        // 1.计算并创建需要使用的策略对象
+        Strategy strategy = new LargeCustoerStrategy();
+
+        // 2:创建上下文
+        Price ctx = new Price(strategy);
+
+        // 3:计算报价
+        double quote = ctx.quote(1000);
+
+        System.out.println("向客户报价:" + quote);
+
+    }
+}

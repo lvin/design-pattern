@@ -13,6 +13,7 @@
         <module>facade</module>
         <module>builder</module>
         <module>decorator</module>
+        <module>strategy</module>
     </modules>
 
 
