@@ -1,6 +1,9 @@
+package badcase;
+
 /**
- * 日志数据
- * @autor wensen on 2017/7/16.
+ * 日志数据对象
+ * @author wensen
+ * @since 12/03/2018
  */
 public class LogModel {
 
@@ -15,7 +18,7 @@ public class LogModel {
     private String operateUser;
 
     /**
-     * 操作时间
+     * 操作时间，以yyyy-MM-dd HH:mm:ss 的格式为例
      */
     private String operateTime;
 
@@ -66,3 +69,4 @@ public class LogModel {
                 '}';
     }
 }
+
