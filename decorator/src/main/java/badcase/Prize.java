@@ -45,7 +45,7 @@ public class Prize {
      */
     private double monthPrize(String user, Date begin, Date end) {
         //计算当月业务奖金，按照人员去获取当月的业务额，然后再乘以3%
-        double prize = TempDB.mapMonthSaleMoney.get(user) * 0.3;
+        double prize = TempDB.mapMonthSaleMoney.get(user) * 0.03;
         System.out.println(user + "当月业务奖金" + prize);
         return prize;
     }
