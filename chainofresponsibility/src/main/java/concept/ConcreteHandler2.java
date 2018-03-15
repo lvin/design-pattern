@@ -5,6 +5,7 @@ package concept;
  */
 public class ConcreteHandler2 extends Handler{
 
+    @Override
     public void handlerRequest() {
         /**
          * 根据某些条件判断是否属于自己的处理范围，
