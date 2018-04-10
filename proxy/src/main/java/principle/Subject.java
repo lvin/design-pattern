@@ -1,4 +1,4 @@
-package theory;
+package principle;
 
 /**
  * 抽象的目标接口，定义具体的目标对象

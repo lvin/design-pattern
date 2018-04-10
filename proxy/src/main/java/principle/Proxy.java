@@ -1,4 +1,4 @@
-package theory;
+package principle;
 
 /**
  * @autor wensen on 2017/7/17.

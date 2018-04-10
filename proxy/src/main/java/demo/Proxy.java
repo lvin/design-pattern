@@ -1,7 +1,5 @@
 package demo;
 
-import java.util.concurrent.locks.ReentrantLock;
-
 /**
  * @autor wensen on 2017/7/17.
  */
@@ -27,7 +25,6 @@ public class Proxy implements UserModelApi {
         //需要判断是否已经装载过了
         if (!this.loaded) {
             //从数据库中重新装载
-            reload();
 
             //设置重新装载标志为true
             this.loaded = true;
@@ -38,7 +35,6 @@ public class Proxy implements UserModelApi {
 
     public String getSex() {
         if (!this.loaded) {
-            reload();
             this.loaded = true;
         }
 

@@ -1,4 +1,4 @@
-package theory;
+package principle;
 
 /**
  * 具体的目标对象，是真正被代理的对象
