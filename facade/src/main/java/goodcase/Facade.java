@@ -10,4 +10,8 @@ public class Facade {
     public void generate() {
     }
 
+
+    void fun() {
+
+    }
 }
