@@ -1,6 +1,6 @@
-package concept.impl;
+package principle.impl;
 
-import concept.BModuleApi;
+import principle.BModuleApi;
 
 /**
  * Created by wensen on 2017/4/10.

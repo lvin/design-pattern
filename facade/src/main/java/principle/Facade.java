@@ -1,8 +1,8 @@
-package concept;
+package principle;
 
-import concept.impl.AModuleImpl;
-import concept.impl.BModuleImpl;
-import concept.impl.CModuleImpl;
+import principle.impl.AModuleImpl;
+import principle.impl.BModuleImpl;
+import principle.impl.CModuleImpl;
 
 /**
  * Created by wensen on 2017/4/10.

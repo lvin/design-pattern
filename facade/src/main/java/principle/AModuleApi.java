@@ -1,4 +1,4 @@
-package concept;
+package principle;
 
 /**
  * A模块接口 * Created by wensen on 2017/4/10.
