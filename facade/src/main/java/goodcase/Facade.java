@@ -12,6 +12,7 @@ public class Facade {
 
 
     void fun() {
+        System.out.println("commit 1");
 
     }
 }
