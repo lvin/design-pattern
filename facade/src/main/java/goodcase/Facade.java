@@ -12,7 +12,6 @@ public class Facade {
 
 
     void fun() {
-        System.out.println("commit 1");
 
         System.out.println("commit 2");
     }
