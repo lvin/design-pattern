@@ -14,14 +14,14 @@ public class Subject {
     /**
      * 用来保存注册的观察者对象，也就是报纸的订阅者
      */
-    private List<Observer> readers = new ArrayList<>();
+    private List<Observer> observers = new ArrayList<Observer>();
 
     /**
      * 报纸的订阅者需要向报社订阅，要先注册
      * @param reader
      */
     public void attach(Observer reader) {
-        readers.add(reader);
+        observers.add(reader);
     }
 
     /**
@@ -29,12 +29,13 @@ public class Subject {
      * @param reader
      */
     public void detach(Observer reader) {
-        readers.remove(reader);
+        observers.remove(reader);
     }
 
     protected void notifyObservers() {
-        readers.stream().forEach(reader ->{
-            reader.update(this);
-        });
+        for (Observer observer : observers) {
+            observer.update(this);
+        }
+
     }
 }
