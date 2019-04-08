@@ -1,4 +1,4 @@
-package demo;
+package pipeline;
 
 import java.util.Map;
 

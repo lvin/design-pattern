@@ -1,8 +1,9 @@
-package demo;
+package pipeline;
 
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -108,6 +109,22 @@ public class DefaultPipeline implements Pipeline{
                 lock.unlock();
             }
             invokeNext();
+        }
+
+        public boolean isCanceled() {
+            return false;
+        }
+
+        public Map<String, Object> getAttributeMap() {
+            return null;
+        }
+
+        public <T> T getOuterContext() {
+            return null;
+        }
+
+        public <T> void setOuterContext(T context) {
+
         }
     }
 }
