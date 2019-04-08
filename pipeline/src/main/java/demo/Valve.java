@@ -2,7 +2,9 @@ package demo;
 
 /**
  * @author wensen
- * @since 2019-04-07
+ * @since 2019-04-08
  */
-public class Valve {
+public interface Valve {
+
+    void invoke(PipelineContext pipelineContext);
 }
